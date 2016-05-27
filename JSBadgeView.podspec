@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/JaviSoto/JSBadgeView"
   s.license          = 'MIT'
   s.author           = { 'Javier Soto' => 'ios@javisoto.es' }
-  s.source           = { :git => 'https://github.com/JaviSoto/JSBadgeView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/richball/JSBadgeView.git', :tag => s.version.to_s }
 
   s.platform     = :ios
   s.requires_arc = true
