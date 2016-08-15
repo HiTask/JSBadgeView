@@ -103,7 +103,7 @@ static BOOL JSBadgeViewIsUIKitFlatMode(void)
     badgeViewAppearanceProxy.badgeStrokeColor = badgeViewAppearanceProxy.badgeBackgroundColor;
 }
 
-+ (void)initialize
++ (void)configureDefaultAppearance
 {
     if (self == JSBadgeView.class)
     {
